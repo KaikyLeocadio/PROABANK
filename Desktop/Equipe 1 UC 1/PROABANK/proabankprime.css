@@ -1,0 +1,383 @@
+/*INÍCIO DA SEÇÃO DO TOPO*/
+.backgroundtop{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#entraconta{
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-left: 50%;
+}
+
+#entraconta img{
+    width: 15%;
+}
+
+#entraconta button{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#textoesquerdotopo{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+#textoesquerdotopo p{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+#textoesquerdotopo button{
+    background: none;
+    border: none;
+    color: white;
+    background-color: #4D6FB0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#textoesquerdotopo button{
+    cursor: pointer;
+}
+
+#entraconta button:hover{
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #25198f;
+}
+
+.executivo {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -750px;
+}
+
+/*FIM - SEÇÃO DO TOPO*/
+
+/*INÍCIO DA SEÇÃO DO CARTÃO*/
+.cartao{
+    width: 50%;
+}
+
+#sessaodocartao{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#sessaodocartaoletras{
+    position: relative;
+    flex-wrap: wrap;
+    color: #3595EE;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 13%;
+}
+
+#sessaodocartaoletras h1{
+    font-size: 42px;
+}
+
+#sessaodocartaoletras p{
+    font-size: 24px;
+}
+
+/*FIM - SEÇÃO DO CARTÃO*/
+
+
+/*INÍCIO DA SEÇÃO DE BENEFÍCIOS DO CARTÃO*/
+
+#backgroundbeneficios{
+    position: relative;
+    width: 100%;
+    height: 3000px;
+    background: linear-gradient(180deg, #003082 0%, #1E1E1E 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#backgroundbeneficios h1{
+    color: #3595EE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baloesbrancos{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#stab{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+
+.quempode{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.quem{
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+#stab button{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    background-color: #4D6FB0;
+    font-size: 20px;
+    padding: 5%;
+    width: 35%;
+}
+
+#stab button:hover{
+    cursor: pointer;
+}
+
+/*FIM - SEÇÃO DE BENEFÍCIOS DO CARTÃO*/
+
+/*INÍCIO DA SEÇÃO SOBRE O NOSSO APP*/
+#sessaoapp{
+    width: 100%;
+    height: 640px;
+    background-color: #4D6FB0;
+}
+
+#textoapp{
+    width: 50%;
+    height: auto;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sessaoapp img{
+    position: absolute;
+    height: 850px;
+    width: 1300px;
+    left: -250px;
+    bottom: -4345px;
+}
+
+/*FIM - SEÇÃO SOBRE O NOSSO APP*/
+
+/*INÍCIO DA SEÇÃO SOBRE O PROA*/
+.sobre-proa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #003082 0%, #1E1E1E 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.sobre-proa{
+    color: #fff;
+    font-size: 30px;
+    text-align: center; 
+}
+
+.sobre-proa p{
+    white-space: pre;
+    color: #fff;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.sobre-proa img{
+    width: 95%;
+    height: 90%; 
+    margin-top: -30px;
+    margin-bottom: 30px;   
+    border-radius: 15px;
+}
+/*FIM - SEÇÃO SOBRE O PROA*/
+
+
+/*INÍCIO DA SEÇÃO DE PARCEIROS DO PROA*/
+#proapartners {
+    position: relative;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    place-items: center; 
+    gap: 45px; 
+    text-align: center; 
+}
+
+#proapartners p {
+    grid-column: 1 / -1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+#proapartners img{
+    width: 55%;
+    height: auto;
+    
+}
+/*FIM - SEÇÃO DE PARCEIROS DO PROA */
+
+/*INÍCIO DA SEÇÃO FOOTER*/
+footer{
+    width: auto;
+    height: 500px;
+    position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#foot{
+    position: relative;
+    width: auto;
+    height: 600px;
+    margin: auto;
+    background-color: black;
+}
+
+.fotologoproa{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    margin-left: 4%;
+    clear: left;
+}
+
+#infos{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 70px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    clear: left;
+}
+
+#infosladodireito{
+    position: relative;
+    width: 50%;
+    height: 360px;
+    margin-top: -335px;
+    margin-right: 5%;
+    float: right;
+}
+
+.baixarapp{
+    position: relative;
+    font-family: 'Righteous', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.insti{
+    position: relative;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#dadosproaesquerdo{
+    position: relative;
+    width: 34%;
+    height: auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#dadosproadireito{
+    position: relative;
+    width: 33%;
+    height: auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    color: white;
+    padding: 10px; 
+    margin-top: 3px;
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+#dadosproadireito p.bolddireito {
+    margin-top: auto; 
+    margin-bottom: 0; 
+    font-weight: bold; 
+}
+
+.bolddireito{
+    font-family: 'Righteous', sans-serif;
+}
+
+#deficientes{
+    width: 33%;
+    height: auto;
+    float: left;
+    margin-top: 9%;
+    color: white;
+    margin-top: 150px;
+}
+/*FINAL - SEÇÃO FOOTER*/
